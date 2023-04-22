@@ -1,0 +1,29 @@
+.wrapper {
+	font-family: sans-serif;
+	position: relative;
+	z-index: 1;
+}
+
+.modal {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	padding: 50px;
+	z-index: 1000;
+}
+
+.overlay {
+	position: fixed;
+	inset: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 999;
+}
+
+.other-content {
+	position: relative;
+	z-index: 2;
+	background-color: red;
+	padding: 10px;
+}
